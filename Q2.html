@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title> Mid Exam Question#2</title>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+  <a href="index.html"><h3>Home Page<h3></a>
+  <div class="container">
+    <div id="d1" class="TopDiv">
+      <h1 onmouseover="moveOver(this)" id="h1">1</h1>
+    </div>
+    <div id="d2" class="TopDiv2">
+      <h1 onmouseover="moveOver(this)" id="h1">2</h1>
+    </div>
+    <div id="d3" class="TopDiv3">
+      <h1 onmouseover="moveOver(this)" id="h3">3</h1>
+    </div>
+  </div>
+  <div class="container2">
+    <div id="d4" class="TopDiv">
+      <h1 onmouseover="moveOver(this)" id="h4">4</h1>
+    </div>
+    <div id="d5" class="TopDiv2">
+      <h1 onmouseover="moveOver(this)" id="h5">5</h1>
+    </div>
+    <div id="d6" class="TopDiv3">
+      <h1 onmouseover="moveOver(this)" id="h6">6</h1>
+    </div>
+  </div>
+  <div id="d7" class="container3">
+    <div class="TopDiv">
+      <h1 onmouseover="moveOver(this)" id="h7">7</h1>
+    </div>
+    <div id="d8" class="TopDiv2">
+      <h1 onmouseover="moveOver(this)" id="h8">8</h1>
+    </div>
+    <div id="d9" class="TopDiv3">
+      <h1 onmouseover="moveOver(this)" id="h9">9</h1>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var count;
+    var output=[];
+
+    function moveOver(x)
+    {
+      x.style.visibility="hidden";
+      output.push(count);
+      count++;
+    }
+    alert(output);
+  </script>
+</body>
+
+</html>

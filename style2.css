@@ -1,0 +1,142 @@
+Body {
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  align-content: center;
+  background-position: center;
+  background-color: grey;
+}
+h1{
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+  background-color: #99a8b2;
+}
+.img2 {
+  width: 100px;
+  height: 100px;
+  background-color: #99a8b2;
+  position: absolute;
+  Left: 200px;
+}
+.img3 {
+  width: 100px;
+  height: 100px;
+  background-color: #99a8b2;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.TopDiv {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv2 {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv3 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv1 {
+  background-color: Lightblue;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv22 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv33 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv11 {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv222 {
+  background-color: grey;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+.TopDiv333 {
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  border: solid 1px;
+  border-color: #ebebeb;
+}
+div:hover {
+
+}
+.leftDiv{
+  position: absolute;
+  left: 600px;
+  background-position: left;
+  flex-direction: row;
+}
+.butn {
+  display: flex;
+  background: #1f6f8b;
+  border-radius: 8px;
+  border: none;
+  background-size: 12px;
+  color: white;
+  font-size: 16px;
+  padding: 15px 50px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+}
